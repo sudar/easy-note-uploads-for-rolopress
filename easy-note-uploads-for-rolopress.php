@@ -245,6 +245,6 @@ function rolo_enu_textdomain () {
 add_action ('admin_menu', 'rolo_enu_options_menu');
 add_filter ('comment_text', 'rolo_enu_insert_links');
 if (! get_option ('rolo_enu_hide_note_form'))
-	add_action('rolopress_before_note_submit', 'rolo_enu_upload_form_default');
+	add_action('comment_form', 'rolo_enu_upload_form_default');
 // add_action('init', 'textdomain_easy-note-uploads-for-rolopress');
 add_action('init', 'rolo_enu_initial_options');
