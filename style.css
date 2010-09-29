@@ -1,0 +1,25 @@
+.rolo_enu_images {
+	max-height: 250px;
+	max-width: 360px;
+	padding: 5px 0 5px 0;
+}
+
+.rolo_enu_upload_form .title {
+	clear : both;
+}
+
+#rolo_enu_preview {
+	margin-bottom: -10px;
+}
+
+#rolo_enu_preview .rolo_enu_preview_img {
+	max-width: 60%;
+	max-height: 200px;
+	clear: both;
+	padding: 0 20% 0 20%;
+}
+
+#rolo_enu_preview .rolo_enu_preview_file {
+	text-align: center;
+	padding: 10px 0 17px 0;
+}
